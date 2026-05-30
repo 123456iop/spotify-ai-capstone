@@ -18,3 +18,12 @@ python src/nlp_analysis.py
 
 3. Запуск веб додатку
 streamlit run app/main.py
+
+Бажано, але необов'язково:
+Встановити віртуальне середовище, щоб уникнути 
+конфлікту бібліотек:
+1.# Створення віртуального середовища
+python -m venv .venv
+2.# Активація (для Windows):
+.venv\Scripts\activate або Активація (для macOS/Linux):
+source .venv/bin/activate
